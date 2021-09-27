@@ -116,7 +116,6 @@ End to End testing have been carried out using Postman and the React client dire
 
 In both code bases run `npm test` to see the automated tests reports.
 
-
 ## Deployment
 
 No deployment has yet been carried out. The app runs locally when spinning both the Client and Servers using the `npm run start` command.
