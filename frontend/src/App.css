@@ -1,0 +1,51 @@
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.app-header {
+  background-color: #1f2f52;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.app-instructions {
+  padding: 1em 0;
+}
+
+pre {
+  color: #ffe534;
+  font-size: 0.75em;
+}
+
+.csv-reader-input__button {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.process-button, .csv-reader-input__label {
+  color: #1f2f52;
+  background-color: #fff;
+  padding: 0.2em;
+  font-size: 1em;
+  border-radius: 0.3em;
+  border: none;
+  margin: 1em 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+
+.process-button:disabled, .csv-reader-input__label:disabled {
+  opacity: 50%;
+  cursor: not-allowed;
+}
